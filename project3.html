@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website code</title>
+    <link rel="icon" href="My COSMOTE.jpg" type="icon"/>
+    <script>
+        function get(){
+            inp="thank you for your comment";
+            alert(inp);
+        }
+   </script>
+   <style>
+    input{
+        border:2px solid black;
+        font-size:15px;
+        padding:5px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    label{
+        font-size:25px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:rgb(15, 14, 117);
+
+    }
+    button{
+     color:rgb(14, 14, 29);
+     background-color:blue;
+     font-size:20px;;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-weight:bold;  
+    }
+    textarea{
+      border:2px solid black;
+      font-size:15px; 
+    }
+   </style>
+</head>
+<body>
+<p>please complete the informtion list bellow </p>
+<form method="post" autocomplate="on" >
+<table>
+<tr><td><label >firstname * : </label></td><td><input type="text" placeholder=" الاسم " required/></td></tr>
+<tr><td><label >lastname * : </label></td><td><input type="text"  placeholder=" النسب " required/></td></tr>
+<tr><td><label >login * : </label></td><td><input type="e-mail" placeholder=" البريد الاكتروني"required/></td></tr>
+<tr><td><label >password * : </label></td><td><input type="password"placeholder="كلمة السر" required/></td></tr>
+<tr><td><label >contry * : </label></td><td><input type="text" placeholder="الدولة" required/></td></tr>
+<tr><td><label >comment *:</label></td><td><textarea cols="30" rows="10"></textarea></td></tr>
+<tr><td><button type="submit" onclick="javascipt: get();">Connexion</button></td><td><button type="reset">delete</button></td></tr>
+</form>    
+</body>
+</html>
